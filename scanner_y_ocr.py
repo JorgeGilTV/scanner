@@ -17,7 +17,7 @@ def ordenar_puntos(puntos):
 	
 	return [x1_order[0], x1_order[1], x2_order[0], x2_order[1]]
 	
-image = cv2.imread('C:/Users/Python Scripts/ESCANER/topic.jpg')
+image = cv2.imread('C:/Users/Python Scripts/ESCANER/scanner/topic.jpg')
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 canny = cv2.Canny(gray, 10, 150)
